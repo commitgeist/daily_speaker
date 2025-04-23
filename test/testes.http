@@ -1,0 +1,9 @@
+POST http://localhost:5000/daily
+Content-Type: application/json
+
+{
+  "name": "ViniciusDev",
+  "done": ["finalizei o módulo de login", "revisei o código de deploy"],
+  "todo": ["começar os testes de integração"],
+  "blockers": ["configuração do webhook"]
+}
